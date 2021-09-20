@@ -2,7 +2,7 @@
 header('Access-Control-Allow-Origin: ' . $_SERVER['SERVER_NAME']);
 
 // Replace with your own subscription key and service region (e.g., "westus").
-$subscriptionKey = 'ed624dfea06843818c94c66ae12a10d2';
+$subscriptionKey = 'your subscrption key';
 $region = 'eastus';
 
 $ch = curl_init();
