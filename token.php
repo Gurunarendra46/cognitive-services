@@ -2,8 +2,8 @@
 header('Access-Control-Allow-Origin: ' . $_SERVER['SERVER_NAME']);
 
 // Replace with your own subscription key and service region (e.g., "westus").
-$subscriptionKey = 'YourSubscriptionKey';
-$region = 'westus';
+$subscriptionKey = 'ed624dfea06843818c94c66ae12a10d2';
+$region = 'eastus';
 
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, 'https://' . $region . '.api.cognitive.microsoft.com/sts/v1.0/issueToken');
