@@ -84,9 +84,11 @@
     var startRecognizeOnceAsyncButton;
 
     // subscription key and region for speech services.
-    var subscriptionKey, serviceRegion, languageTargetOptions, languageSourceOptions;
+    var  languageTargetOptions, languageSourceOptions;
     var SpeechSDK;
     var recognizer;
+    const subscriptionKey='ed624dfea06843818c94c66ae12a10d2'
+    serviceRegion='eastus'
 
     document.addEventListener("DOMContentLoaded", function () {
       startRecognizeOnceAsyncButton = document.getElementById("startRecognizeOnceAsyncButton");
